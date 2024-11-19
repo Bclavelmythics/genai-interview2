@@ -33,7 +33,6 @@ Implement improved chunking that:
 
 * Preserves section headers and hierarchical relationships
 * Maintains technical details together (setup instructions, code blocks)
-* Handles varying content types
 * Implements appropriate chunk overlap
 
 
@@ -51,7 +50,6 @@ Design a retrieval system that:
 
 * Handles multi-intent questions about service relationships
 * Retrieves setup instructions with related security best practices
-* Maintains context across related services
 * Implements hybrid search (semantic + keyword)
 
 
@@ -71,7 +69,6 @@ Basic prompt template lacks guidance for technical documentation Q&A.
 Create a prompt template that:
 
 * Provides framework for technical explanations
-* Maintains relationships between services
 * Handles security-specific terminology
 * Enables step-by-step instruction delivery
 
