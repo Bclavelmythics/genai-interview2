@@ -1,6 +1,20 @@
 # genai-interview2
 Second set of problems revolved around Generative AI 
 
+## Prerequisites
+
+* Sign up on together.ai and obtain an API key
+    * clone this repository git clone https://github.com/Bclavelmythics/genai-interview2.git
+* Use python 3.11 and install requirements
+    * pip3.11 install -r requirements.txt
+* If installing requirements fail run the following commands instead
+    * pip3.11 install streamlit
+    * pip3.11 install langchain
+    * pip3.11 install langchain_community
+
+
+
+
 ## Problem 1: Document Chunking
 
 Current Implementation
@@ -17,10 +31,11 @@ This basic implementation fails to maintain context across sections and loses hi
 ### Task
 Implement improved chunking that:
 
-Preserves section headers and hierarchical relationships
-Maintains technical details together (setup instructions, code blocks)
-Handles varying content types (prose, code, lists)
-Implements appropriate chunk overlap
+* Preserves section headers and hierarchical relationships
+* Maintains technical details together (setup instructions, code blocks)
+* Handles varying content types
+* Implements appropriate chunk overlap
+
 
 ## Problem 2: Context Retrieval
 
@@ -34,13 +49,14 @@ Simple similarity search fails to capture complex relationships in technical doc
 ### Task
 Design a retrieval system that:
 
-Handles multi-intent questions about service relationships
-Retrieves setup instructions with related security best practices
-Maintains context across related services
-Implements hybrid search (semantic + keyword)
+* Handles multi-intent questions about service relationships
+* Retrieves setup instructions with related security best practices
+* Maintains context across related services
+* Implements hybrid search (semantic + keyword)
 
 
-## Problmem 3: Prompt Engineering
+
+## Problem 3: Prompt Engineering
 
 Current Implementation
 ```python
@@ -54,22 +70,28 @@ Basic prompt template lacks guidance for technical documentation Q&A.
 ### Task
 Create a prompt template that:
 
-Provides framework for technical explanations
-Maintains relationships between services
-Handles security-specific terminology
-Supports code example generation
-Enables step-by-step instruction delivery
+* Provides framework for technical explanations
+* Maintains relationships between services
+* Handles security-specific terminology
+* Enables step-by-step instruction delivery
 
 
-## Problem 4: Conversation Management
+
+## Bonus Problem: Conversation Management
 
 Application is not able to recall conversation history therefore is unable to participate in interactive conversation with user
 
 ### Task
 Implement conversation handling that:
 
-Maintains context across multiple questions about the same service
-Tracks setup instruction progress
-Handles clarification questions
-Links related security configurations
-Manages conversation state for complex technical discussions
+* Maintains context across multiple questions about the same service
+* Tracks setup instruction progress
+* Handles clarification questions
+* Manages conversation state for complex technical discussions
+
+
+
+## Example Questions for LLM to test Application Performance
+* What's the recommended way to manage encryption keys and secrets across multiple OCI services?
+* How can I automate security scanning in my CI/CD pipeline using OCI's vulnerability scanning service?
+* How can I set up automated remediation for common security issues?
