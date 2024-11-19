@@ -1,6 +1,19 @@
 # genai-interview2
 Second set of problems revolved around Generative AI 
 
+## Prerequisites
+
+* Sign up on together.ai and obtain an API key
+    * clone this repository git clone https://github.com/Bclavelmythics/genai-interview2.git
+* Use python 3.11 and install requirements
+    * pip3.11 install -r requirements.txt
+* If installing requirements fail run the following commands instead
+    * pip3.11 install streamlit
+    * pip3.11 install langchain
+    * pip3.11 install langchain_community
+
+
+
 
 ## Problem 1: Document Chunking
 
@@ -74,4 +87,11 @@ Implement conversation handling that:
 * Maintains context across multiple questions about the same service
 * Tracks setup instruction progress
 * Handles clarification questions
-* `Manages conversation state for complex technical discussions
+* Manages conversation state for complex technical discussions
+
+
+
+## Example Questions for LLM to test Application Performance
+* What's the recommended way to manage encryption keys and secrets across multiple OCI services?
+* How can I automate security scanning in my CI/CD pipeline using OCI's vulnerability scanning service?
+* How can I set up automated remediation for common security issues?
