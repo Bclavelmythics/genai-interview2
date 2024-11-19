@@ -77,7 +77,7 @@ Create a prompt template that:
 
 
 
-## Bonues: Conversation Management
+## Bonus Problem: Conversation Management
 
 Application is not able to recall conversation history therefore is unable to participate in interactive conversation with user
 
