@@ -4,7 +4,8 @@ Second set of problems revolved around Generative AI
 ## Prerequisites
 
 * Sign up on together.ai and obtain an API key
-    * clone this repository git clone https://github.com/Bclavelmythics/genai-interview2.git
+* clone this repository
+  * git clone https://github.com/Bclavelmythics/genai-interview2.git
 * Use python 3.11 and install requirements
     * pip3.11 install -r requirements.txt
 * If installing requirements fail run the following commands instead
