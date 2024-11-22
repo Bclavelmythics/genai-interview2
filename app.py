@@ -9,7 +9,7 @@ import os
 
 # ============ USER CONFIG SECTION ============
 VECTOR_DB_PATH = "oci_security_db"
-TOGETHER_API_KEY = "a85b803f2f7e8fdb3d7681d77c6d399cd273d2bbebede92ba9e795a7ba730833"  # User should modify this
+TOGETHER_API_KEY = ""  # User should modify this
 # =============================================
 
 os.environ["TOGETHER_API_KEY"] = TOGETHER_API_KEY
